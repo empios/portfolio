@@ -1,28 +1,51 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Nav />
+    <Main />
+    <About />
+    <Timeline />
+    <Project />
+    <Skill />
+    <Contact />
+    <Footer />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import Main from "./components/Main";
+import Nav from "./components/Nav";
+import About from "./components/About";
+import Timeline from "./components/Timeline";
+import Project from "./components/Project";
+import Skill from "./components/Skill";
+import Contact from "./components/Contact";
+import Footer from "@/components/Footer";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Main,
+    Nav,
+    About,
+    Timeline,
+    Project,
+    Skill,
+    Contact,
+    Footer
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.vue-typer .custom.char.typed {
+  color: rgba(255, 255, 255, 0.9);
 }
+.vue-typer .custom.char.selected {
+  color: rgba(255, 255, 255, 0.9);
+}
+.vue-typer .custom.caret.typing {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
 </style>
