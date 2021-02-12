@@ -7,7 +7,8 @@ import {
     faCode,
     faCircle,
     faCodeBranch,
-    faArrowUp
+    faArrowUp,
+    faDownload
 
 } from "@fortawesome/free-solid-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
@@ -20,7 +21,8 @@ library.add(
     faCircle,
     faCodeBranch,
     faArrowUp,
-    faInstagram
+    faInstagram,
+    faDownload
 );
 Vue.component("vue-fontawesome", FontAwesomeIcon);
 

@@ -22,51 +22,57 @@
         ></vue-typer>
         </p>
         <b-field>
-          <b-switch
-              v-model="lightMode"
-              passive-type='is-dark'
-              type='is-warning'>
-            {{ lightMode ? "☀️" : "🌙" }}
-          </b-switch>
-        </b-field>
-      </div>
-    </div>
-  </section>
-</template>
+          <b-button icon-left="download" @click="resume" class="is-info is-rounded">Resume</b-button>
+          <!-- <b-switch
+               v-model="lightMode"
+               passive-type='is-dark'
+               type='is-warning'>
+             {{ lightMode ? "☀️" : "🌙" }}
+           </b-switch> -->
+         </b-field>
+       </div>
+     </div>
+   </section>
+ </template>
 
-<script>
-export default {
-  name: "Main",
-  data() {
-    return {
-      lightMode: true
-    }
-  },
-  watch: {
-    lightMode: function (val) {
-      if(!val) {
-        document.body.style.filter = "invert(1) hue-rotate(180deg)"
-        document.body.style.transition = "color 300ms, background-color 300ms"
-        let listOfImg = document.getElementsByTagName("img")
-        for (let item of listOfImg){
-          item.style.setProperty("filter", "invert(1) hue-rotate(180deg")
-        }
-      }
-      if(val) {
-        document.body.style.filter = null
-        document.body.style.transition = null
-        let listOfImg = document.getElementsByTagName("img")
-        for (let item of listOfImg){
-          item.style.setProperty("filter", null)
-        }
-      }
-    }
-  }
-}
+ <script>
+ export default {
+   name: "Main",
+   data() {
+     return {
+       lightMode: true
+     }
+   },
+   watch: {
+     lightMode: function (val) {
+       if(!val) {
+         document.body.style.filter = "invert(1) hue-rotate(180deg)"
+         document.body.style.transition = "color 300ms, background-color 300ms"
+         let listOfImg = document.getElementsByTagName("img")
+         for (let item of listOfImg){
+           item.style.setProperty("filter", "invert(1) hue-rotate(180deg")
+         }
+       }
+       if(val) {
+         document.body.style.filter = null
+         document.body.style.transition = null
+         let listOfImg = document.getElementsByTagName("img")
+         for (let item of listOfImg){
+           item.style.setProperty("filter", null)
+         }
+       }
+     }
+   },
+   methods: {
+     resume(){
+       window.open('https://pdfhost.io/v/KO1DVJrMA_Resume.pdf', '_blank')
+     }
+   }
+ }
 
 
-</script>
+ </script>
 
-<style scoped>
+ <style scoped>
 
-</style>
+ </style>

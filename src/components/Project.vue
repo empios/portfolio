@@ -117,10 +117,10 @@
             <div class="container mt-4">
               <nav class="level">
                 <div class="level-item">
-                  <b-button class="is-info" icon-left="arrow-up">Live</b-button>
+                  <b-button class="is-info" icon-left="arrow-up" @click="clicked('https://pawelvlodarczyk.netlify.app/')">Live</b-button>
                 </div>
                 <div class="level-item">
-                  <b-button class="is-dark" icon-left="code-branch" >GitHub</b-button>
+                  <b-button class="is-dark" icon-left="code-branch" @click="clicked('https://github.com/empios/portfolio')">GitHub</b-button>
                 </div>
               </nav>
             </div>
@@ -141,7 +141,7 @@
             <div class="container mt-4">
               <nav class="level">
                 <div class="level-item">
-                  <b-button class="is-info" icon-left="arrow-up" @click="clicked('https://main-page.vercel.app/i')">Live</b-button>
+                  <b-button class="is-info" icon-left="arrow-up" @click="clicked('https://main-page.vercel.app/')">Live</b-button>
                 </div>
                 <div class="level-item">
                   <b-button class="is-dark" icon-left="code-branch" @click="clicked('https://github.com/empios/MainPage')">GitHub</b-button>
