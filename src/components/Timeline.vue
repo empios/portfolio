@@ -19,12 +19,21 @@
           color="turquoise"
       />
       <vue-timeline-update
-          date="Now"
+          :date="new Date('now')"
           title="Freelancer"
           description="Now i'm working mostly with creating SPA (Single Page Application) and Landing Pages for clients."
-          category="Vue.js, HTML, CSS"
+          category="Vue.js, React"
           icon="code"
           color="white"
+          is-last
+      />
+      <vue-timeline-update
+          :date="new Date('now')"
+          title="Junior Full-Stack Developer"
+          description="Creating landing-pages with back-end logic. Tech stack: Laravel, React, Vue, Next.JS, Node"
+          category="Vue.js, React, Laravel"
+          icon="code"
+          color="black"
           is-last
       />
     </div>

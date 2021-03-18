@@ -1,5 +1,5 @@
 <template>
-  <div class="container has-text-centered mt-5">
+  <div class="container has-text-centered mt-5" style="width: 40%">
     <h1 class="title">Contact with me!</h1>
     <form @submit.prevent="sendEmail" class="pb-5">
       <label>Name</label>
@@ -44,10 +44,16 @@ export default {
     sendEmail(e) {
       try {
         emailjs.sendForm('service_lmbkf9p', 'template_881xfnr', e.target, 'user_Bl0dwmxCXhQZ9vDUd1w6V')
-            .then((result) => {
-              console.log('SUCCESS!', result.status, result.text);
+            .then(() => {
+              this.$buefy.toast.open({
+                message: 'Thanks for message!',
+                type: 'is-success'
+              })
             }, (error) => {
-              console.log('FAILED...', error);
+              this.$buefy.toast.open({
+                message: 'Error during sending message' + error,
+                type: 'is-danger'
+              })
             });
       }
       catch (error){

@@ -65,7 +65,7 @@
    },
    methods: {
      resume(){
-       window.open('https://pdfhost.io/v/KO1DVJrMA_Resume.pdf', '_blank')
+       window.open('https://pdfhost.io/v/v7y7D3LWL_CV.pdf', '_blank')
      }
    }
  }

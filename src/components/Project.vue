@@ -153,6 +153,80 @@
       </div>
     </div>
 
+
+    <div class="columns mt-2">
+      <div class="column">
+        <div class="card has-shadow">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="../assets/randomquote.png"/></figure>
+          </div>
+          <div class="card-content">
+            <h1 class="title is-5">Random Quote Application</h1>
+            <div class="container has-text-centered">
+              <img src="../assets/logo.png" height="40" width="40"/>
+            </div>
+            <div class="container mt-4">
+              <nav class="level">
+                <div class="level-item">
+                  <b-button class="is-info" icon-left="arrow-up" @click="clicked('https://empios.github.io/Random-Quote-Machine/')">Live</b-button>
+                </div>
+                <div class="level-item">
+                  <b-button class="is-dark" icon-left="code-branch" @click="clicked('https://github.com/empios/Random-Quote-Machine')">GitHub</b-button>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card has-shadow">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="../assets/markdown.png"/></figure>
+          </div>
+          <div class="card-content">
+            <h1 class="title is-5">Markdown Preview</h1>
+            <div class="container has-text-centered">
+              <img src="../assets/react.png" height="40" width="40" class="ml-2"/>
+            </div>
+            <div class="container mt-4">
+              <nav class="level">
+                <div class="level-item">
+                  <b-button class="is-info" icon-left="arrow-up" @click="clicked('https://empios.github.io/markdown-preview/')">Live</b-button>
+                </div>
+                <div class="level-item">
+                  <b-button class="is-dark" icon-left="code-branch" @click="clicked('https://github.com/empios/markdown-preview')">GitHub</b-button>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card has-shadow">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://cdn.pixabay.com/photo/2015/12/09/15/51/code-1084923_960_720.png"/></figure>
+          </div>
+          <div class="card-content">
+            <h1 class="title is-5">Command Reader</h1>
+            <div class="container has-text-centered">
+              <img src="../assets/node-logo.png" height="30" width="30"/>
+            </div>
+            <div class="container mt-4">
+              <nav class="level">
+                <div class="level-item">
+                  <b-button class="is-dark" icon-left="code-branch" @click="clicked('https://github.com/empios/Command-Reader')">GitHub</b-button>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
   </div>
 </template>
 

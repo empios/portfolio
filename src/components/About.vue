@@ -7,7 +7,7 @@
               <div class="card has-shadow">
                 <div class="card-image">
                   <figure class="image">
-                    <img src="https://i.imgur.com/kQIEZDz.png" alt="My face">
+                    <img src="https://i.imgur.com/x9aFKxd.jpg" alt="My face">
                   </figure>
                 </div>
                 <div class="card-content">
@@ -15,6 +15,7 @@
                     <img src="../assets/logo.png" height="40" width="40"/>
                     <img src="../assets/react.png" height="40" width="50" class="ml-1"/>
                     <img src="../assets/node.png" height="40" width="40" class="ml-1"/>
+                    <img src="../assets/php.svg" height="40" width="40" class="ml-1"/>
                   </div>
                 </div>
             </div>
