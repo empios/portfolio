@@ -34,7 +34,7 @@
             <div class="card-content has-text-centered">
               <div class="container ">
                 <h1 class="title is-4">Hello!👋</h1>
-                <p>I'm 24 years old developer who love coding! I'm close to graduate from University and i will gain my Bachelor of Engineering title.🎓
+                <p>I'm 24 years old developer who love coding! I graduate from University and i have a Bachelor of Engineering title.🎓
                   I have more than year of commercial experience with creating software of various types: starting from <strong>Front-End projects</strong>
                   and finishing up with <strong>Web Scrappers and Games</strong>.
                   <br>

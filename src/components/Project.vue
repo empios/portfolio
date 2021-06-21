@@ -227,6 +227,81 @@
     </div>
 
 
+    <div class="columns mt-2">
+      <div class="column">
+        <div class="card has-shadow">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="../assets/karty.png"/></figure>
+          </div>
+          <div class="card-content">
+            <h1 class="title is-5">TCG Card Game Online</h1>
+            <div class="container has-text-centered">
+              <img src="../assets/node-logo.png" height="40" width="40"/>
+            </div>
+            <div class="container mt-4">
+              <nav class="level">
+                <div class="level-item">
+                  <b-button class="is-info" icon-left="arrow-up" @click="clicked('https://card.mgrabiec.pl/')">Live</b-button>
+                </div>
+                <div class="level-item">
+                  <b-button class="is-dark" icon-left="code-branch" @click="clicked('https://github.com/empios/phaser-card-game')">GitHub</b-button>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card has-shadow">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="../assets/currency.png"/></figure>
+          </div>
+          <div class="card-content">
+            <h1 class="title is-5">Currency application</h1>
+            <div class="container has-text-centered">
+              <img src="../assets/react.png" height="40" width="40" class="ml-2"/>
+            </div>
+            <div class="container mt-4">
+              <nav class="level">
+                <div class="level-item">
+                  <b-button class="is-info" icon-left="arrow-up" @click="clicked('https://currency-psi.vercel.app/')">Live</b-button>
+                </div>
+                <div class="level-item">
+                  <b-button class="is-dark" icon-left="code-branch" @click="clicked('https://github.com/empios/currency')">GitHub</b-button>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card has-shadow">
+          <div class="card-image">
+            <figure class="image is-4by3">
+              <img src="https://cdn.pixabay.com/photo/2015/12/09/15/51/code-1084923_960_720.png"/></figure>
+          </div>
+          <div class="card-content">
+            <h1 class="title is-5">PHP Crud with register/login system</h1>
+            <div class="container has-text-centered">
+              <img src="../assets/php.svg" height="30" width="30"/>
+              <img src="../assets/docker.png" height="30" width="30" class="ml-2"/>
+              <img src="../assets/mysql.png" height="30" width="30" class="ml-2"/>
+            </div>
+            <div class="container mt-4">
+              <nav class="level">
+                <div class="level-item">
+                  <b-button class="is-dark" icon-left="code-branch" @click="clicked('https://github.com/empios/article-project')">GitHub</b-button>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
   </div>
 </template>
 
