@@ -3,6 +3,7 @@ import App from './App.vue'
 import Buefy from 'buefy'
 import 'buefy/dist/buefy.css'
 import { library } from "@fortawesome/fontawesome-svg-core";
+import VueParticles from 'vue-particles'
 import {
     faCode,
     faCircle,
@@ -32,6 +33,8 @@ Vue.use(Buefy, {
 })
 Vue.use(VueTyperPlugin)
 Vue.use(vuetimeline)
+Vue.use(VueParticles)
+
 Vue.config.productionTip = false
 
 

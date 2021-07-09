@@ -1,5 +1,5 @@
 <template>
-  <div class="is-fullwidth" style="background-color: #0F77EA">
+  <div class="is-fullwidth pt-2 pb-4" style="background-color: #0F77EA">
     <h1 class="title is-3 has-text-white has-text-centered pt-6 pb-3">My experience</h1>
     <div class="container pt-2 pb-6 pl-2">
       <vue-timeline-update

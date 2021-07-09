@@ -1,8 +1,8 @@
 <template>
-  <div class="is-fullwidth mt-6 mb-6" style="background-color: darkslategrey">
-    <h1 class="title is-3 has-text-white has-text-centered pt-4">Skills</h1>
+  <div class="is-fullwidth mt-6 mb-6" style="background-color: #2F2F2F">
+    <h1 class="title is-3 has-text-white has-text-centered pt-6">Skills</h1>
     <div class="container pt-4">
-      <div class="columns mt-3 pb-6 has-text-centered is-mobile">
+      <div class="columns mt-3 pb-6 has-text-centered">
         <div class="column">
           <img src="../assets/html.png" class="is-32x32"/>
         </div>
@@ -27,7 +27,7 @@
         <div class="column">
           <img src="../assets/logo.png" class="is-32x32"/>
         </div>
-        <div class="column">
+        <div class="column ">
           <img src="../assets/jquery.png" class="is-32x32"/>
         </div>
         <div class="column">
@@ -45,5 +45,9 @@ export default {
 </script>
 
 <style scoped>
-
+@media only screen and (max-width: 768px){
+  img{
+    width: 20%
+  }
+}
 </style>

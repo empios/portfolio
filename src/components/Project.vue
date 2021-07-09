@@ -1,5 +1,5 @@
 <template>
-  <div class="container mt-5">
+  <div class="container mt-5 pt-5 pb-5">
     <h1 class="is-3 title has-text-centered">Projects</h1>
     <div class="columns mt-2">
       <div class="column">
@@ -107,7 +107,7 @@
         <div class="card has-shadow">
           <div class="card-image">
             <figure class="image is-4by3">
-              <img src="../assets/portfolio.jpg"/></figure>
+              <img src="../assets/portfolio.png"/></figure>
           </div>
           <div class="card-content">
             <h1 class="title is-5">Portfolio</h1>
@@ -183,20 +183,20 @@
         <div class="card has-shadow">
           <div class="card-image">
             <figure class="image is-4by3">
-              <img src="../assets/markdown.png"/></figure>
+              <img src="../assets/gnome.png"/></figure>
           </div>
           <div class="card-content">
-            <h1 class="title is-5">Markdown Preview</h1>
+            <h1 class="title is-5">GNOME Extension</h1>
             <div class="container has-text-centered">
-              <img src="../assets/react.png" height="40" width="40" class="ml-2"/>
+              <img src="../assets/node-logo.png" height="40" width="40" class="ml-2"/>
             </div>
             <div class="container mt-4">
               <nav class="level">
                 <div class="level-item">
-                  <b-button class="is-info" icon-left="arrow-up" @click="clicked('https://empios.github.io/markdown-preview/')">Live</b-button>
+                  <b-button class="is-info" icon-left="arrow-up" @click="clicked('https://extensions.gnome.org/extension/4378/kill-port/')">Live</b-button>
                 </div>
                 <div class="level-item">
-                  <b-button class="is-dark" icon-left="code-branch" @click="clicked('https://github.com/empios/markdown-preview')">GitHub</b-button>
+                  <b-button class="is-dark" icon-left="code-branch" @click="clicked('https://github.com/empios/kill-port-extension')">GitHub</b-button>
                 </div>
               </nav>
             </div>

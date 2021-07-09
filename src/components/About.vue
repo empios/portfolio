@@ -1,5 +1,5 @@
 <template>
-  <div class="container mb-3">
+  <div class="container mb-5 mt-5">
     <h1 class="is-size-3 mt-2 has-text-centered">About me</h1>
     <div class="columns is-marginless">
         <div class="column is-one-fifth-desktop">
@@ -7,7 +7,7 @@
               <div class="card has-shadow">
                 <div class="card-image">
                   <figure class="image">
-                    <img src="https://i.imgur.com/x9aFKxd.jpg" alt="My face">
+                    <img src="../assets/me.png" alt="My face">
                   </figure>
                 </div>
                 <div class="card-content">

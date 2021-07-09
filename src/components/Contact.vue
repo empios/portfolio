@@ -1,5 +1,5 @@
 <template>
-  <div class="container has-text-centered mt-5" style="width: 40%">
+  <div class="container has-text-centered mt-5 pt-2 mb-5" style="width: 40%">
     <h1 class="title">Contact with me!</h1>
     <form @submit.prevent="sendEmail" class="pb-5">
       <label>Name</label>
