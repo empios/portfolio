@@ -53,7 +53,7 @@
    name: "Main",
    methods: {
      resume(){
-       window.open('https://pdfhost.io/v/v7y7D3LWL_CV.pdf', '_blank')
+       window.open('https://pdfhost.io/v/wNxfTDpGZ_Resume.pdf', '_blank')
      }
    }
  }

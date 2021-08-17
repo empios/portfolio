@@ -207,17 +207,20 @@
         <div class="card has-shadow">
           <div class="card-image">
             <figure class="image is-4by3">
-              <img src="https://cdn.pixabay.com/photo/2015/12/09/15/51/code-1084923_960_720.png"/></figure>
+              <img src="../assets/trivia.png"/></figure>
           </div>
           <div class="card-content">
-            <h1 class="title is-5">Command Reader</h1>
+            <h1 class="title is-5">QuizApp</h1>
             <div class="container has-text-centered">
-              <img src="../assets/node-logo.png" height="30" width="30"/>
+              <img src="../assets/ts.svg" height="30" width="30"/>
             </div>
             <div class="container mt-4">
               <nav class="level">
                 <div class="level-item">
-                  <b-button class="is-dark" icon-left="code-branch" @click="clicked('https://github.com/empios/Command-Reader')">GitHub</b-button>
+                  <b-button class="is-info" icon-left="arrow-up" @click="clicked('https://quiz-app-empios.vercel.app/')">Live</b-button>
+                </div>
+                <div class="level-item">
+                  <b-button class="is-dark" icon-left="code-branch" @click="clicked('https://github.com/empios/QuizApp')">GitHub</b-button>
                 </div>
               </nav>
             </div>
@@ -280,19 +283,20 @@
         <div class="card has-shadow">
           <div class="card-image">
             <figure class="image is-4by3">
-              <img src="https://cdn.pixabay.com/photo/2015/12/09/15/51/code-1084923_960_720.png"/></figure>
+              <img src="../assets/TweetGenerator.png"/></figure>
           </div>
           <div class="card-content">
             <h1 class="title is-5">PHP Crud with register/login system</h1>
             <div class="container has-text-centered">
-              <img src="../assets/php.svg" height="30" width="30"/>
-              <img src="../assets/docker.png" height="30" width="30" class="ml-2"/>
-              <img src="../assets/mysql.png" height="30" width="30" class="ml-2"/>
+              <img src="../assets/ts.svg" height="30" width="30"/>
             </div>
             <div class="container mt-4">
               <nav class="level">
                 <div class="level-item">
-                  <b-button class="is-dark" icon-left="code-branch" @click="clicked('https://github.com/empios/article-project')">GitHub</b-button>
+                  <b-button class="is-info" icon-left="arrow-up" @click="clicked('https://react-typescript-redux-tailwind.vercel.app/')">Live</b-button>
+                </div>
+                <div class="level-item">
+                  <b-button class="is-dark" icon-left="code-branch" @click="clicked('https://github.com/empios/React-Typescript-Redux-Tailwind')">GitHub</b-button>
                 </div>
               </nav>
             </div>
